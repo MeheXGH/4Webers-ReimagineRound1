@@ -1,0 +1,12 @@
+
+.hero-bg {
+    background: rgb(255,183,0);
+    background: radial-gradient(circle, rgba(255,183,0,1) 24%, rgba(255,106,0,1) 100%);
+}
+.g-ef{
+background: rgba(255, 255, 255, 0.08);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
