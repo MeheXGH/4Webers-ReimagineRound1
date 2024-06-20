@@ -6,46 +6,64 @@
     <title>Coolberg</title>
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple-icons/siimple-icons.css" />
 </head>
 <body>
     <div class="main bg-slate-600 h-screen ">
 
+        <div class="page1 overflow-hidden">
+
         <div class="nav h-24  g-ef flex justify-between items-center px-10 fixed w-screen">
+
+            
 
            <div class="logo  flex justify-center items-center">
             <img src="img/logo.webp" alt="">
            </div>
 
-           <div class="more flex justify-between items-center w-1/5 text-white">
-            <a href="">SHOP</a>
-            <a href="">MERCHANDISE</a>
-            <a href="">CONTACT US</a>
+           <div class="more  flex justify-center items-center w-auto text-white hidden sm:block ">
+            <a class="mx-2" href="">SHOP</a>
+            <a class="mx-2" href="">MERCHANDISE</a>
+            <a class="mx-2" href="">CONTACT US</a>
            </div>
 
+           <div class="more2 sm:hidden ">
+            <i class="si-bars text-white text-3xl"></i>
+            
+           </div>
 
         </div>
 
-        <div class="hero-con hero-bg h-screen flex justify-center items-center">
+        <div class="map mix-blend-darken h-screen absolute overflow-hidden flex justify-center items-center">
+            <img class="opacity-10 object-contain" src="img/map.jpg" alt="">
+        </div>
 
-            <div class="bg-text-l absolute w-2/3 z-0 text-8xl text-yellow-300 font-extrabold top-40 left-28">
+        <div class="hero-con hero-bg h-screen flex justify-center items-center ">
+
+            <div class="bg-text-l absolute  z-0 text-4xl sm:text-5xl sm:left-10 md:text-8xl   text-yellow-300 font-extrabold sm:top-40 md:left-28 top-32 left-15  flex justify-center items-center sm:justify-start sm:items-start">
                 <h1> NO BOTTLE <br> OPENER?</h1>
             </div>
 
-            <div class="bg-text-r absolute w-2/3 z-0 text-8xl text-white font-extrabold bottom-40 right-28 flex justify-end items-end">
+            <div class="bg-text-r absolute  z-0 text-4xl sm:text-5xl sm:left-10 md:text-8xl   text-white font-extrabold sm:bottom-40 md:right-28 bottom-20 left-15 flex justify-center items-center sm:justify-start sm:items-start md:justify-end md:items-end md:left-96 ">
                 <h1> NO <br>PROBLEM!</h1>
             </div>
 
-            <div class="cap absolute right-72">
-                <img class="h-64" src="img/cap.png" alt="">
+            <div class="cap absolute md:right-72 right-0 bottom-52">
+                <img class=" h-32   sm:h-64  " src="img/cap.png" alt="">
             </div>
 
-            <div class="h-img flex justify-center items-center z-10">
-                <img class="h-screen " src="img/btl2.png" alt="">
+            <div class="h-img flex justify-center items-center z-10 drop-shadow-xl -rotate-12 ">
+                <img class=" h-[50vh] sm:h-[110vh] " src="img/btl2.png" alt="">
             </div>
             
         </div>
 
+        </div>
+        <div class="page2 bg-gray-300  p2-bg h-screen">
 
+        </div>
     </div>
+
+
 </body>
 </html>

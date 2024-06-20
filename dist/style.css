@@ -1,4 +1,13 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
 .hero-bg {
     background: rgb(255,183,0);
     background: radial-gradient(circle, rgba(255,183,0,1) 24%, rgba(255,106,0,1) 100%);
@@ -10,3 +19,8 @@ backdrop-filter: blur(4.1px);
 -webkit-backdrop-filter: blur(4.1px);
 border: 1px solid rgba(255, 255, 255, 0.2);
 }
+/* .p2-bg{
+    background: rgb(255,236,189);
+background: linear-gradient(360deg, rgba(255,183,0,1) 8%, rgba(255,106,0,1) 100%);
+} */
+
