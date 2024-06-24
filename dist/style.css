@@ -24,3 +24,14 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 background: linear-gradient(360deg, rgba(255,183,0,1) 8%, rgba(255,106,0,1) 100%);
 } */
 
+.stroked-text {
+    -webkit-text-stroke: 1px rgb(5, 250, 144);
+  }
+
+  .p-g-ef{
+    /* background: rgba(255, 170, 0, 0.08); */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    }
