@@ -58,7 +58,7 @@ gsap.from(".ft-img",{
     x: "-100%",
     scrollTrigger:{
         trigger:".ft-img",
-        start:"top 50%",
+        start:"top 60%",
         end: "top 40%",
         // markers: true,
         scrub: 1
