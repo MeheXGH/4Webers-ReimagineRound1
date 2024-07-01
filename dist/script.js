@@ -39,3 +39,18 @@ tl.from(".rhs",{
         scrub: 1
     },
 },"a")
+
+gsap.to(".h-img",{
+    scrollTrigger:{
+        trigger:".h-img",
+        start:"top -10%",
+        end: "30% -15%",
+        // markers: true,
+        scrub: 1
+    },
+    rotate: "45%",
+    duration: 1,
+    ease: "cubic-bezier(0.61, 1, 0.88, 1)",
+    y: "5%",
+})
+
