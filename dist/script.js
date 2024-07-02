@@ -66,3 +66,20 @@ gsap.from(".ft-img",{
     duration: 1,
     ease: "cubic-bezier(0.61, 1, 0.88, 1)",
 })
+
+
+// var loder = document.querySelector("#loder");
+// document.addEventListener("onload",
+//     setTimeout(function(){
+//         loder.style.top = "-110vh"
+//         },4000)
+// )
+document.addEventListener("DOMContentLoaded", function() {
+    var loder = document.querySelector("#loder");
+    document.body.classList.add("no-scroll");
+
+    setTimeout(function() {
+      loder.style.top = "-110vh";
+      document.body.classList.remove("no-scroll");
+    }, 4000);
+  });
