@@ -48,7 +48,7 @@ gsap.to(".h-img",{
         // markers: true,
         scrub: 1
     },
-    rotate: "45%",
+    rotate: "8%",
     duration: 1,
     ease: "cubic-bezier(0.61, 1, 0.88, 1)",
     y: "5%",
@@ -58,8 +58,8 @@ gsap.from(".ft-img",{
     x: "-100%",
     scrollTrigger:{
         trigger:".ft-img",
-        start:"top 60%",
-        end: "top 40%",
+        start:"top 90%",
+        end: "top 85%",
         // markers: true,
         scrub: 1
     },
